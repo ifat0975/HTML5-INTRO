@@ -1,0 +1,25 @@
+.hero-container{
+display: flex;
+align-items: center;
+gap:40px ;
+background-color: aqua;
+padding: 25px;
+font-size: 1.25em;
+border: 25px;
+}
+.hero-container img{
+    width:100%;
+    height:400px ;
+}
+.hero-container button{
+    background-color: blueviolet;
+    padding: 10px 30px;
+    font-size: 1.25em;
+    border-radius:10px ;
+    cursor: pointer;
+}
+body{
+    max-width: 1000px;
+    background-color: blanchedalmond;
+    margin: 0 auto ;
+}
